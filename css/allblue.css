@@ -143,6 +143,77 @@ body{
 	}
 
 	
+/*all*/
+
+	.all-margin{
+		margin-right: 48px;
+	}
+
+	.all-card {
+		border: 2px solid #3F9ECF;
+		margin-bottom: 20px !important;
+	}
+
+	.all-body {
+		max-height: 100px;
+		min-height: 100px;
+		padding: 5px 10px;
+		background-color: #142431;
+	}
+
+	.all-tipos {
+		margin-left:0;
+	}
+
+	.all-data{
+		font-size: 12px;
+		padding-right: 10px;
+		position: absolute;
+		right: 0;
+	}
+
+	.all-title{
+		font-size: 12px;
+		margin-bottom: 0 !important;
+	}
+
+	.all-text{
+		font-size: 11px;
+		color: #fff !important;
+		max-height: 70px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-top: 5px;
+		margin-bottom: 10px !important;
+	}
+
+	.all-auto {
+		width: 100px;
+		height: 100px;
+    	-ms-flex: 0 0 auto;
+    	flex: 0 0 auto;
+	}
+
+	.all-chanel{
+		padding-left: 10px;
+		border-bottom: 2px solid #3F9ECF;
+		margin-bottom: 20px;
+	}
+
+/*best*/
+	
+	.best-topics{
+		color: #fff;
+		padding-left: 45px;
+		padding-right: 0;
+	
+	}
+
+	.best-title{
+		padding-left: 10px;
+		border-bottom: 2px solid #3F9ECF;
+		margin-bottom: 20px;
+	}
 
 /*feed*/
 	
@@ -157,8 +228,8 @@ body{
 	}
 
 	.feed-article{
-	    min-height: 260px;
-	    max-height: 260px;
+	    min-height: 280px;
+	    max-height: 280px;
 	    height: auto;
 	    overflow: hidden;
 	}
@@ -180,6 +251,7 @@ body{
 	.feed-tipos{
 		padding-left: 45px;
 	}
+
 
 /*propaganda*/
 
@@ -217,6 +289,14 @@ body{
 		margin-bottom: 10px !important;
 	}
 
+	.post-auto {
+		width: 250px;
+		height: 160px;
+    	-ms-flex: 0 0 auto;
+    	flex: 0 0 auto;
+	}
+
+
 	#posts>.container-allblue{
 		border-bottom: 2px solid #3F9ECF;
 	}
@@ -241,8 +321,32 @@ footer{
 	background-color: #3F9ECF!important;
 	
 }
- footer>.text-muted {
+
+ 	footer>.text-muted {
 	    color: #fff !important;
+	}
+
+	.footer-alin{
+
+		align-items: center;
+	}
+
+	.footer-link{
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+	.footer-link a{
+		color: #fff;
+		margin-right: 20px;
+	}
+
+	.float-right a{
+		color: #fff;
+		font-size: 50px;
+		filter: drop-shadow(0 2px 4px rgba(34,36,38,0.35));
+		-webkit-filter: drop-shadow(0 2px 4px rgba(34,36,38,0.35));
 	}
 
 /*css default*/
@@ -295,9 +399,4 @@ footer{
 		padding-bottom: 0 !important;
 	}
 
-	.flex-auto {
-		width: 250px;
-		height: 160px;
-    	-ms-flex: 0 0 auto;
-    	flex: 0 0 auto;
-	}
+	
