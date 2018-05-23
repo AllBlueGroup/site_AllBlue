@@ -1,5 +1,5 @@
 body{
-	background:url(http://www.allbluevr.com/wp-content/uploads/2017/02/All-blue-back.png);
+	background-image:url("../img/Background.jpg");
 	cursor:pointer;
     border: none;
 }
@@ -86,42 +86,153 @@ body{
 
 /*card*/
 
-	.card{
-		background-color: transparent;
+	#prop-one{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto 
 	}
+
 
 	.card-item{
 		width: 50%;
 		height: 270px;
-		margin-bottom: 20px !important;
+		margin-bottom: 15px !important;
 		padding: 0 5px;
 	}
 
 	.card-item-child{
-		
 		border:none;
+		background-color: transparent;
 	}
 
-	.card-item img{
+	.card-item-child img{
 		height: 270px;
 		border-radius: 6px;
 		border: none;
 	}
 
-	.card-item h5{
+	.card-item-child h5{
 		border-radius: 6px;
 		width: 100%;
 		position: absolute;
 		margin-bottom: 0;
 		bottom: 0;
 		color: #fff; font-size: 14px;
-		padding: 10px 5px;
-		background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0), rgba(0,0,1)); /* Standard syntax (must be last) */
-		  
+		padding: 20px 25px 20px 5px;
+		background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(0,0,0), rgba(0,0,1));
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    max-width: 100%;
+	    overflow: hidden;
+	}
+
+	.card-item-child a{
+		color: #4dff4d; font-size: 15px;
+		position: absolute;
+		right: -10px;
+		bottom: 17px;
+		-webkit-transform: rotate(270deg);
+	    -moz-transform: rotate(270deg);
+	    -o-transform: rotate(270deg);
+	    -ms-transform: rotate(270deg);
+	    transform: rotate(270deg);
 	}
 
 	.bg-light {
     	background-color: transparent !important;
+	}
+
+	
+
+/*feed*/
+	
+	.feed-card{
+	
+		background-color: transparent;
+	}
+
+	.feed-card img{
+		height: 225px;
+		border-radius: 6px;
+	}
+
+	.feed-article{
+	    min-height: 260px;
+	    max-height: 260px;
+	    height: auto;
+	    overflow: hidden;
+	}
+
+	.feed-body{
+		padding: 0;
+	}
+
+	.feed-title{
+		color: #fff;
+	}
+
+	.feed-topics{ 
+		border-bottom: 2px solid #3F9ECF;
+		color: #fff !important;
+		padding-left: 10px;
+	}
+
+	.feed-tipos{
+		padding-left: 45px;
+	}
+
+/*propaganda*/
+
+	.card-prop{
+		background-color: transparent !important;
+	}
+
+/*posts*/
+	.posts-tipos{
+		margin-left:0;
+	}
+
+	.post-card{
+		border: 2px solid #3F9ECF;
+	}
+
+	.post-body{
+		padding: 5px 10px;
+		background-color: #142431;
+	}
+
+	.post-data{
+		padding-right: 10px;
+		position: absolute;
+		right: 0;
+	}
+	.post-title{
+		color: #fff !important;
+	}
+	.post-text{
+		max-height: 70px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-top: 10px;
+		margin-bottom: 10px !important;
+	}
+
+	#posts>.container-allblue{
+		border-bottom: 2px solid #3F9ECF;
+	}
+/*menu*/
+
+	.menu{
+		padding: 0 !important;
+		border: 2px solid #3F9ECF;
+		border-radius: 5px;
+		background: #142431;
+	}
+
+	.all-2{
+		margin: 5px 25px;
+		padding: 0 !important;
+		color: #fff !important;
 	}
 
 /*footer*/
@@ -130,9 +241,9 @@ footer{
 	background-color: #3F9ECF!important;
 	
 }
-.text-muted {
-    color: #fff !important;
-}
+ footer>.text-muted {
+	    color: #fff !important;
+	}
 
 /*css default*/
 	:root {
@@ -179,4 +290,14 @@ footer{
 	  margin-bottom: .25rem;
 	}
 
-	
+	.album{
+		padding-top: 1rem!important;
+		padding-bottom: 0 !important;
+	}
+
+	.flex-auto {
+		width: 250px;
+		height: 160px;
+    	-ms-flex: 0 0 auto;
+    	flex: 0 0 auto;
+	}

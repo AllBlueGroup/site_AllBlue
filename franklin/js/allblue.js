@@ -31,3 +31,11 @@ $(window).bind("load", function() {
                .resize(positionFooter)
                
 });
+
+
+// function postTitle(clas){
+  
+//   var divXpto = $('.clas');
+//   divXpto.text(divXpto.text().substring(0,50));
+
+// };

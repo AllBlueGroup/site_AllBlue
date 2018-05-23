@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>All Blue</title>
-
+		<link rel="stylesheet" type="application/javascript" href="js/allblue.js">
 		<!-- css -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -30,14 +30,22 @@
 	      	</div>
 	    </header>
 	    <main role="main">
-	      	<section>
+	      	<section id="banners">
 	      		<div class="album py-5 bg-light">
 		        	<div class="container">
+		        		<div class="row">
+		        			<article id="prop-one">
+		        				<div class="card mb-4 box-shadow card-prop">
+		        					<img src="img/adv2.png">
+		        				</div>
+		        			</article>
+		        		</div>
 		          		<div class="row">
 		            		<article class="card-item">
 		            			<div class="card mb-4 box-shadow card-item-child">
 		                			<img class="card-img-top" src="img/boku-no-hero-academia-14.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
 		                			<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+		                			<!-- <a href="#"><div>Mangá</div></a> -->
 		              			</div>
 		            		</article>
 		              			
@@ -46,41 +54,233 @@
 		            			<div class="card mb-4 box-shadow card-item-child">
 		                			<img class="card-img-top" src="img/Pantera-Negra banner.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
 		                			<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+		                			<!-- <a href="#"><div>Filmes & Series</div></a> -->
 		              			</div>
 		            		</article>
 	              			<article class="card-item">
 	              				<div class="card mb-4 box-shadow card-item-child">
-				                	<img class="card-img-top" src="img/Pantera-Negra banner.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+				                	<img class="card-img-top" src="img/OpCapa.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
 				                	<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+				                	<!-- <a href="#"><div>Anime</div></a> -->
 				              	</div>
 	              			</article>
 				            
 							<article class="card-item">
 		            			<div class="card mb-4 box-shadow card-item-child">
-		                			<img class="card-img-top" src="img/boku-no-hero-academia-14.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+		                			<img class="card-img-top" src="img/guerra-civil.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
 		                			<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+		                			<!-- <a href="#"><div>Comics</div></a> -->
 		              			</div>
 		            		</article>
 				        </div>
 		        	</div>
 		      	</div>
 	      	</section>
-	      	
+	      	<section id="menu">
+	      		<div class="container-allblue container">
+	      			<div class="menu nav-scroller py-1 mb-2">
+				        <nav class="nav d-flex justify-content-between">
+				         	<a class="all-2 text-muted" href="#">Anime</a>
+				        	<a class="all-2 text-muted" href="#">Mangá</a>
+				          	<a class="all-2 text-muted" href="#">Comics</a>
+				          	<a class="all-2 text-muted" href="#">Filmes & Series</a>
+				          	<a class="all-2 text-muted" href="#">Quiz</a>
+				          	<a class="all-2 text-muted" href="#">Listas</a>
+				          	<a class="all-2 text-muted" href="#">All Blue Cast</a>
+				        </nav>
+				    </div>
+	      		</div>
+	      	</section>
+	      	<section id="posts">
+	      		<div class="container-allblue container">
+		      		<div class="row mb-2">
+				        <div class="col-md-9">
+				          	<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+				          		<img class="flex-auto d-none d-lg-block" src="img/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+				            	<div class="card-body post-body d-flex flex-column align-items-start">
+				            		<div class="row posts-tipos">
+				            			<strong class="d-inline-block mb-2 text-primary">World</strong>
+				              			<div class="mb-1 text-muted post-data">Nov 12</div>
+				            		</div>
+				              		<h5 class="mb-0">
+				                		<a class="text-dark post-title" href="#">Featured post</a>
+				              		</h5>
+				              		<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				            	</div>
+				          	</div>
+				          	<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+				          		<img class="flex-auto d-none d-lg-block" src="img/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+				            	<div class="card-body post-body d-flex flex-column align-items-start">
+				            		<div class="row posts-tipos">
+				            			<strong class="d-inline-block mb-2 text-success">Design</strong>
+				            			<div class="mb-1 text-muted post-data">Nov 11</div>
+				            		</div>
+				              		<h5 class="mb-0">
+				                		<a class="text-dark post-title" href="#">Post title</a>
+				              		</h5>
+				              		
+				              		<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				            	</div>
+				          	</div>
+				          	<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+				          		<img class="flex-auto d-none d-lg-block" src="img/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+				            	<div class="card-body post-body d-flex flex-column align-items-start">
+				            		<div class="row posts-tipos">
+				            			<strong class="d-inline-block mb-2 text-primary">World</strong>
+				              			<div class="mb-1 text-muted post-data">Nov 12</div>
+				            		</div>
+				              		<h5 class="mb-0">
+				                		<a class="text-dark post-title" href="#">Featured post</a>
+				              		</h5>
+				              		<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				            	</div>
+				          	</div>
+				          	<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+				          		<img class="flex-auto d-none d-lg-block" src="img/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+				            	<div class="card-body post-body d-flex flex-column align-items-start">
+				            		<div class="row posts-tipos">
+				            			<strong class="d-inline-block mb-2 text-success">Design</strong>
+				            			<div class="mb-1 text-muted post-data">Nov 11</div>
+				            		</div>
+				              		<h5 class="mb-0">
+				                		<a class="text-dark post-title" href="#">Post title</a>
+				              		</h5>
+				              		
+				              		<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				            	</div>
+				          	</div>
+				          	<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+				          		<img class="flex-auto d-none d-lg-block" src="img/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+				            	<div class="card-body post-body d-flex flex-column align-items-start">
+				            		<div class="row posts-tipos">
+				            			<strong class="d-inline-block mb-2 text-primary">World</strong>
+				              			<div class="mb-1 text-muted post-data">Nov 12</div>
+				            		</div>
+				              		<h5 class="mb-0">
+				                		<a class="text-dark post-title" href="#">Featured post</a>
+				              		</h5>
+				              		<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				            	</div>
+				          	</div>
+				          	<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+				          		<img class="flex-auto d-none d-lg-block" src="img/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+				            	<div class="card-body post-body d-flex flex-column align-items-start">
+				            		<div class="row posts-tipos">
+				            			<strong class="d-inline-block mb-2 text-success">Design</strong>
+				            			<div class="mb-1 text-muted post-data">Nov 11</div>
+				            		</div>
+				              		<h5 class="mb-0">
+				                		<a class="text-dark post-title" href="#">Post title</a>
+				              		</h5>
+				              		
+				              		<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				            	</div>
+				          	</div>
+				        </div>
+				        <div class="col-md-3">
+					    	<article>
+			        				<div class="card mb-4 box-shadow card-prop">
+			        					<img src="img/adv1.png">
+			        				</div>
+			        		</article>
+			        		<article>
+			        				<div class="card mb-4 box-shadow card-prop">
+			        					<img src="img/Camiseta-all-blue.jpg">
+			        				</div>
+			        		</article>
+			        		<article>
+			        				<div class="card mb-4 box-shadow card-prop">
+			        					<img src="img/adv3.png">
+			        				</div>
+			        		</article>
+					    </div>
+				    </div>
+			    </div>
+	      	</section>
+	      	<section id="feed">
+	      		<div class="container-allblue container">
+	      			<div class="album py-5 bg-light">
+				      	<div class="row">
+				        	<div class="col-md-4">
+				        		<div class="row">
+				        			<div class="col-md-12 feed-tipos">
+				        				<p class="feed-topics">Anime</p>
+				        			</div>
+				        		</div>
+				          		<div class="feed-card card mb-4 box-shadow">
+				          			<article class="feed-article">
+					          			<img class="card-img-top" src="img/allbluecast.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+					            		<div class="feed-body card-body">
+					              			<p class="feed-title card-text">#04 - Trio Monstro</p>
+					            		</div>
+				          			</article>
+				            		
+				          		</div>
+				        	</div>
+				        	<div class="col-md-4">
+				        		<div class="row">
+				        			<div class="col-md-12 feed-tipos">
+				        				<p class="feed-topics">Anime</p>
+				        			</div>
+				        		</div>
+				          		<div class="feed-card card mb-4 box-shadow">
+				            		<article class="feed-article">
+					          			<img class="card-img-top" src="img/nami.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+					            		<div class="feed-body card-body">
+					              			<p class="feed-title card-text">#06 - Imediata</p>
+					            		</div>
+				          			</article>
+				          		</div>
+				        	</div>
+				        	<div class="col-md-4">
+				        		<div class="row">
+				        			<div class="col-md-12 feed-tipos">
+				        				<p class="feed-topics">Anime</p>
+				        			</div>
+				        		</div>
+				          		<div class="feed-card card mb-4 box-shadow">
+				          			<article class="feed-article">
+					          			<img class="card-img-top" src="img/filhosbm.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+					            		<div class="feed-body card-body">
+					              			<p class="feed-title card-text">#66 - Filhos da BigLocona</p>
+					            		</div>
+				          			</article>
+				          		</div>
+				        	</div>
+				      	</div>
+				      	<div class="row">
+		        			<article id="prop-one">
+		        				<div class="card mb-4 box-shadow card-prop">
+		        					<img src="img/adv2.png">
+		        				</div>
+		        			</article>
+		        		</div>
+				    </div>
+	      		</div>
+	      	</section>
 	    </main>
 
-	    <footer class="text-muted">
-	     	<div class="container">
-		        <p class="float-right">
-		          	<a href="#">Back to top</a>
-		        </p>
-	        	<p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-	        	<p>New to Bootstrap?
-	        		<a href="../../">Visit the homepage</a> or read our 
-	        		<a href="../../getting-started/">getting started guide</a>.
-	        	</p>
-	      	</div>
+	    <footer>
+	    	<div class="text-muted">
+	    		<div class="container">
+			        <p class="float-right">
+			          	<a href="#">Back to top</a>
+			        </p>
+		        	<p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+		        	<p>New to Bootstrap?
+		        		<a href="../../">Visit the homepage</a> or read our 
+		        		<a href="../../getting-started/">getting started guide</a>.
+		        	</p>
+		      	</div>
+	    	</div>
+	     	
 	    </footer>
 
+
+		<!-- <script type="text/javascript">
+			    	var text = ".post-text"
+			    	postTitle(".post-text", text);
+			    </script> -->
 	    <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
 	    <script src="js/vendor/popper.min.js"></script>
 	    <script src="js/vendor/holder.min.js"></script>
