@@ -218,7 +218,7 @@ body{
 /*feed*/
 	
 	.feed-card{
-	
+		border: 1px solid transparent;
 		background-color: transparent;
 	}
 
@@ -232,6 +232,16 @@ body{
 	    max-height: 280px;
 	    height: auto;
 	    overflow: hidden;
+	}
+
+	.item-select{
+		opacity: 1;
+		transition: .5s ease;
+  		backface-visibility: hidden;
+	}
+
+	.item-select:hover{
+		opacity: 0.6;
 	}
 
 	.feed-body{
